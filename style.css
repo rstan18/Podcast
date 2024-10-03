@@ -1,0 +1,174 @@
+h1 {
+  color: #493110;
+  font-family: cursive;
+  padding: 1em;
+  background-color: #e0cdb7;
+  text-align: center;
+}
+
+h2 {
+  color: #493110;
+  font-family: cursive;
+  border: dotted #d2b68e 4px;
+  text-align: center;
+}
+
+h3 {
+  font-family: cursive;
+}
+
+header {
+  padding: 0em;
+  background-color: #f5dfc5;
+  border: solid #e9d6ba 2px;
+  position: sticky;
+  left: 0;
+  top: 0;
+  width: 100%;
+  font-family: cursive;
+}
+
+body {
+  background: linear-gradient(#e2d3c3, #f2dcba);
+  height: 100%;
+  min-height: 100%;
+  margin: 0px;
+  padding: 0px;
+  color: #493110;
+  text-align: center;
+}
+
+header img {
+  display: block;
+  margin-left: 2em;
+  margin-right: 1em;
+  width: 13%;
+}
+
+a {
+  background-color: #dac1a4;
+  padding: 0.5em;
+  border-radius: 0.5em;
+  text-decoration: none;
+  transition: all 1s;
+  position: relative;
+  top: 50px;
+  font-size: 20px;
+  border: solid #dac1a4 3px;
+  color: #493110;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+  margin-right: 10px;
+}
+
+a:hover {
+  background-color: #c49a5f;
+}
+
+div {
+  font-family: monospace;
+  color: #493110;
+}
+
+p {
+  text-align: center;
+  font-size: 15px;
+  font-family: cursive;
+}
+
+footer {
+  background-color: #d0bba4;
+  border: solid #d0bba4 3px;
+  position: static;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+main img {
+  border: solid #ceb79f 10px;
+  display: block;
+  margin: 0 auto;
+  max-width: 80%;
+}
+
+iframe {
+  border: solid #c7b39e 15px;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.column {
+  flex: 30%;
+  padding: 10px;
+}
+
+div p {
+  border: solid #ceb79f 30px;
+  padding: 1em;
+  background-color: #ceb79f;
+  font-size: 15px;
+  font-family: cursive;
+}
+
+article img {
+  width: 90%;
+  border: solid #ceb79f 10px;
+  max-width: 100%;
+  height: auto;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+article {
+  flex: 100px;
+  text-align: center;
+}
+
+button {
+  background-color: #c7b39e;
+  width: 95%;
+  height: 20%;
+  font-size: large;
+  font-family: monospace;
+  transition: all 1s;
+}
+button:hover {
+  background-color: #c49a5f;
+}
+
+.video {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 70px;
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
+
+.video img {
+  width: 90%;
+}
+
+.videos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 70px;
+  margin-bottom: 10em;
+}
+
+.videos img {
+  width: 90%;
+}
